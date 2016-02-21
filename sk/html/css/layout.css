@@ -1,0 +1,202 @@
+h1, h3, h4, h5, h6{font-weight: normal;}
+ul.list1, ul.list2, ul.list3, ul.list4{
+	margin:12px 0;
+}
+
+ul.list1 li{
+	font-size:1.5em;
+	float:left;
+	width:160px;
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+ul.list2 li{
+	font-size:1.5em;
+	float:left;
+	width:343px;
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+ul.list3 li{
+	font-size:1.5em;
+	margin-bottom:5px;
+	margin-left:20px;
+}	
+
+ul.list4 li{
+	font-size:1.5em;
+	float:left;
+	width:222px;
+	margin-bottom:5px;
+	margin-left:20px;
+}
+
+.productList{
+	margin:50px 0 50px 0;
+}
+
+.article .posts2 .productList h2{
+	font-size:2.1em;
+	color:#4C4A49;
+	margin-bottom:25px;
+}
+
+.article .posts2 .productList h2 span{
+	font-size:75%;
+	font-weight:normal;
+	color:#4C4A49;
+	display:block;
+	margin-top:4px;
+}
+
+ul.note{
+	margin:25px 0 0 0;
+	font-size:1.2em;
+}
+
+p.note{
+	margin-top:16px;
+	font-size:1.2em;
+}
+
+p.note a{
+	border-bottom:1px solid #DCDCD7;
+	display:inline-block;
+	color:#727272;
+}
+p.note a:hover{
+	color:#595857;
+}
+.note li{
+	list-style:none;
+	float:left;
+	margin-right:30px;	
+}
+
+.note .specColor{
+	margin-right:2px;
+}
+
+.note span{
+	height:31px;
+	line-height:23px;
+	display:inline-block;
+}
+
+.qualityWrap .qualityIcon{
+	float:left;
+	width:125px;
+	height:84px;
+	background-image: url(../images/icon07.gif);
+	background-repeat: no-repeat;
+}
+
+.qualityWrap p{
+	float:left;
+	width:412px;
+	font-size:1.4em;
+	line-height:2.1em;
+}
+
+.qualityWrap.two p{
+	width:359px;	
+}
+
+.qualityNav{
+	float:right;
+	width:160px;
+	line-height:2.2em;
+	margin-top:14px;
+}
+
+.qualityNav.two{
+	float:right;
+	width:218px;
+}
+
+.qualityNav a{
+	font-size:1.6em;
+	display:block;
+	margin-bottom:5px;
+	color:#4c4a49;
+}
+
+.qualityNav.two a{
+	float:left;
+	width:110px;
+}
+
+.qualityNav a.activeSlide, .qualityNav a:hover{
+	color:#CDBA2E;
+}
+
+.calendar{
+}
+
+.calendar .calendarTable{
+	font-size:1.4em;
+	color:#868686;
+}
+
+.calendar .calendarTable .tableTitle{
+	font-size:207%;
+	padding-left:2px;
+	font-weight:300;
+	color:#4C4A49;
+	line-height:70%;
+}
+
+.calendar .calendarTable td{
+	border-bottom: 1px solid #DCDCD7;
+	padding:15px 0;
+}
+.calendar .calendarTable td.last{
+	border:none;
+}
+
+.faq-wrap{
+	border-top:1px solid #000000;
+}
+
+.faq-wrap .question{
+	border-bottom:1px solid #DCDCD7;
+	padding:20px 0 8px 0;
+}
+
+.faq-wrap .question .q1{
+	float:left;
+	width:30px;
+	margin-right:5px;
+	margin-top:-5px;
+	color:#231916;
+	font-size:19px;
+	line-height:29px;
+	text-align:center;
+}
+
+.faq-wrap .question .q2{
+	float:left;	
+	width:691px;
+}
+
+.faq-wrap .question h3{
+	font-size:1.6em;
+	color:#4c4a49;
+	font-weight:normal;
+	padding: 0;
+	margin:0 0 5px 0;
+	border:none;
+}
+#content .article .posts2 .faq-wrap .question p{
+	font-size:1.4em;
+	color:#828282;
+}
+
+.footerImg{
+	margin-bottom:160px;
+}
+
+td.prspace{
+	padding-right:12px;}
