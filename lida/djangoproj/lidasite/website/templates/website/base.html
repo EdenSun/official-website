@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    {% include 'website/head.html' %}
+    <title>{% block title %}{% endblock %} - 上海戾达实业有限公司</title>
+</head>
+<body>
+ 
+{% include 'website/nav.html' %}
+ 
+{% block content %}
+<div>待添加</div>
+{% endblock %}
+ 
+{% include 'website/footer.html' %}
+ 
+{% include 'website/bottom.html' %}
+ 
+</body>
+</html>
