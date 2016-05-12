@@ -1,0 +1,109 @@
+{% extends 'base.html'%}
+{% load staticfiles %}
+{% block title %}产品{% endblock %}
+
+
+
+{% block content %}
+<section id="portfolio">
+    <div class="container">
+        <div class="center">
+            <h2>产品</h2>
+            <p class="lead">我们立志于为用户提供专业可靠的互联网产品</p>
+        </div>
+
+
+        <ul class="portfolio-filter text-center">
+            <li><a class="btn btn-default active" href="#" data-filter="*">全部</a></li>
+            <li><a class="btn btn-default" href="#" data-filter=".apps">App开发</a></li>
+            <li><a class="btn btn-default" href="#" data-filter=".web">Web开发</a></li>
+            <!--<li><a class="btn btn-default" href="#" data-filter=".wordpress">Web Development</a></li>-->
+        </ul><!--/#portfolio-filter-->
+
+        <div class="row">
+            <div class="portfolio-items">
+                <div class="portfolio-item web col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="{% static 'images/portfolio/recent/istarenergy.png'%}" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a class="preview" href="{% static 'images/portfolio/full/istarenergy.png'%}" rel="prettyPhoto">星能国际官网</a></h3>
+                                <p>星能国际官方网站</p>
+                                <a class="preview" href="{% static 'images/portfolio/full/istarenergy.png' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> 查看</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item web col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="{%static 'images/portfolio/recent/winnerstone.png'%}" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a class="preview" href="{% static 'images/portfolio/full/winnerstone.png'%}" rel="prettyPhoto">问路石网站</a></h3>
+                                <p>问路石网站</p>
+                                <a class="preview" href="{% static 'images/portfolio/full/winnerstone.png'%}" rel="prettyPhoto"><i class="fa fa-eye"></i> 查看</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="{% static 'images/portfolio/recent/hijianzhi.png'%}" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a class="preview" href="{% static 'images/portfolio/full/hijianzhi.png'%}" rel="prettyPhoto">兼职狂人</a></h3>
+                                <p>兼职狂人APP</p>
+                                <a class="preview" href="{% static 'images/portfolio/full/hijianzhi.png'%}" rel="prettyPhoto"><i class="fa fa-eye"></i> 查看</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="{% static 'images/portfolio/recent/shqy.png'%}" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a class="preview" href="{% static 'images/portfolio/full/shqy.png'%}" rel="prettyPhoto">顺手牵羊</a></h3>
+                                <p>顺手牵羊APP</p>
+                                <a class="preview" href="{%static 'images/portfolio/full/shqy.png' %}" rel="prettyPhoto"><i class="fa fa-eye"></i> 查看</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="{% static 'images/portfolio/recent/mos.png'%}" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a class="preview" href="{% static 'images/portfolio/full/mos.png'%}" rel="prettyPhoto">移动订货</a></h3>
+                                <p>移动订货APP</p>
+                                <a class="preview" href="{% static 'images/portfolio/full/mos.png'%}" rel="prettyPhoto"><i class="fa fa-eye"></i> 查看</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
+                    <div class="recent-work-wrap">
+                        <img class="img-responsive" src="{% static 'images/portfolio/recent/yyp.png'%}" alt="">
+                        <div class="overlay">
+                            <div class="recent-work-inner">
+                                <h3><a class="preview" href="{% static 'images/portfolio/full/yyp.png'%}" rel="prettyPhoto">优易配</a></h3>
+                                <p>优易配APP</p>
+                                <a class="preview" href="{% static 'images/portfolio/full/yyp.png'%}" rel="prettyPhoto"><i class="fa fa-eye"></i> 查看</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+
+            </div>
+        </div>
+    </div>
+</section><!--/#portfolio-item-->
+<div id="bottom"></div>
+{% endblock%}
